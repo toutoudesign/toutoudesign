@@ -1,0 +1,80 @@
+body{
+    background-color: gray;
+}
+
+.page{
+    width: 780px;
+    margin: auto; /*Pour centrer le contenu*/
+    font-family: 'source sans pro', Calibri, Verdana,Tahoma, sans-serif ; /*Choix des polices*/
+    font-size: 18px;
+    border: 5px solid rgb(4, 83, 99);
+    border-radius: 10px; /*bordure arrondi*/
+    box-shadow: 1px 4px 3px black; /*une ombre au tour de notre CV */
+    padding: 20px;
+    background-color: white;
+}
+
+.infophoto{
+    height: 250px;
+}
+
+.info{
+    float: left;
+}
+
+.photo{
+    float: right;
+}
+
+.section{
+    margin-bottom: 70px;
+    text-align: justify;
+}
+.section:hover{
+    color: rgb(15, 108, 142); /*pour avoir une interaction sur le text dessu en cliquant*/
+}
+
+.sec-gauche{
+    float: left; /*floter a gauche*/
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sec-droite{
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 28px;
+    color: rgb(7, 92, 107);
+    border-bottom: 3px solid rgb(4, 83, 99) ;
+}
+
+.duree{
+    font-weight: normal;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.titre{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#exp-gauche p{
+    margin-bottom: 40px;
+}
+
+#forma-droite p{
+    margin-bottom: 30px;
+}
+
+#comp-gauche p{
+    margin-bottom: 25px;
+}
+
+#comp-droite p{
+    margin-top: 1px;
+}
+
